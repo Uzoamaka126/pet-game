@@ -1,5 +1,4 @@
 /* general */
-
 * {
   box-sizing: border-box;
 }
@@ -7,6 +6,7 @@
 body {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 .frame {
-  height: 762px;
+  height: 744px;
   width: 762px;
   position: relative;
 }
@@ -82,7 +82,7 @@ body {
   left: 160px;
 }
 
-.modal {
+.modal-inner {
   position: absolute;
   top: 0;
   left: 0;
